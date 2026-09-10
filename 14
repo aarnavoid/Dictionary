@@ -1,0 +1,3 @@
+my_dict = {"Aarnavi":98,"Surabhi":3,"Lisha":78,"Rajasi":81}
+sorted_dict=dict(sorted(my_dict.items() , key = lambda item:item[1]))
+print("Dictionary sorted by values:",sorted_dict)
